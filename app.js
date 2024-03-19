@@ -24,10 +24,10 @@ const MongoDBStore = require("connect-mongo")(session);
 
 const dbUrl = 'mongodb://localhost:27017/camp-vista';
 mongoose.connect(dbUrl, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useUnifiedTopology: true,
-    useFindAndModify:false
+    // useNewUrlParser: true,
+    // useCreateIndex: true,
+    // useUnifiedTopology: true,
+    // useFindAndModify:false
 });
 
 const db = mongoose.connection;
